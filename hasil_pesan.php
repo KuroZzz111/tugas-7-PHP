@@ -21,7 +21,7 @@ if (isset($_POST['nama']) && isset($_POST['kelas']) && isset($_POST['pesan'])) {
 
  <div class="card" style="width: 500px;">
   <div class="card-body bg-light shadow-lg">
-    <h4 class="card-title">Pesan Berhasi Dikirim</h4>
+    <h4 class="card-title">Pesan Berhasil Dikirim</h4>
     <h5 class="card-text">Terima Kasih, <strong><?= $nama; ?>!</strong></p></h5>
     <div>
         <div class="bg-light p-2 rounded mb-3"> <strong>Nama:</strong> <?= $nama; ?>
