@@ -34,7 +34,7 @@ if (
     <div class="card shadow-lg border-0 p-4 rounded-4" style="width: 600px; max-width: 100%;">
         <!-- Judul -->
         <h3 class="fw-bold mb-4">Detail Mahasiswa</h3>
-        <!-- Dalam -->
+        <!-- Isi Dalam kontainer -->
         <div class="bg-light p-3 rounded mb-3">
             <strong>NIM:</strong> <?= $nim; ?>
         </div>

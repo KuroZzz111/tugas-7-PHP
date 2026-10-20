@@ -63,15 +63,15 @@ $mahasiswa = [
 }
 </style>
 <body>
-    <div class="container my-4">
+    <div class="container bg-light my-4">
         <div class="card border-0 shadow-sm p-3 rounded-4">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h3 class="fw-bold m-0">Daftar Nilai Mahasiswa</h3>
                 <!-- Tombol menuju Form Pesan -->
                 <a href="form_pesan.php" class="btn btn-success">Isi Form Pesan</a>
             </div>
-<h4> Mini Website PHP Dasar</h4>
-<div class="table-responsive">
+    <h5> Mini Website PHP Dasar</h5>
+    <div class="table-responsive">
 <table class="table table-bordered align-middle small">
  <thead class="table-success">
     <tr>
@@ -126,7 +126,7 @@ if($mhs["nilai"] >= 70) {
     </tbody>
 </table>
         </div>
-        </div>
+    </div>
     </div>
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -19,28 +19,23 @@ if (isset($_POST['nama']) && isset($_POST['kelas']) && isset($_POST['pesan'])) {
 </head>
 <body class="bg-white d-flex align-items-center justify-content-center min-vh-100 p-2">
 
-  <div class="shadow-lg p-4 rounded-4" style="max-width: 550px; width: 100%;">
-    <h3 class="fw-bold mb-3">Pesan Berhasil Dikirim</h3>
-    
-    <p class="mb-4">Terima kasih, <strong><?= $nama; ?>!</strong></p>
-
-    <!-- Kotak Detail Data -->
-    <div class="bg-light p-3 rounded mb-3">
-      <strong>Nama:</strong> <?= $nama; ?>
-    </div>
-
-    <div class="bg-light p-3 rounded mb-3">
-      <strong>Kelas:</strong> <?= $kelas; ?>
-    </div>
-
-    <div class="bg-light p-3 rounded mb-4">
-      <strong>Pesan / Kesan:</strong> <?= $pesan; ?>
-    </div>
-
+ <div class="card" style="width: 500px;">
+  <div class="card-body bg-light shadow-lg">
+    <h4 class="card-title">Pesan Berhasi Dikirim</h4>
+    <h5 class="card-text">Terima Kasih, <strong><?= $nama; ?>!</strong></p></h5>
     <div>
-      <a href="index.php" class="btn btn-primary px-3 py-2">Kembali ke Data Mahasiswa</a>
+        <div class="bg-light p-2 rounded mb-3"> <strong>Nama:</strong> <?= $nama; ?>
+        </div>
+
+         <div class="bg-light p-2 rounded mb-3"> <strong>Kelas:</strong> <?= $kelas; ?>
+        </div>
+
+        <div class="bg-light p-2 rounded mb-3"> <strong>Pesan / Kesan:</strong> <?= $pesan; ?>
+        </div>
     </div>
+    <a href="index.php" class="btn btn-primary">Kembali ke Data Mahasiswa</a>
   </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
